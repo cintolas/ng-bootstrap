@@ -13,8 +13,8 @@ import {
 	Output,
 	ViewChild,
 	ViewEncapsulation,
-	DOCUMENT,
 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 import { fromEvent, Observable, Subject, zip } from 'rxjs';
 import { filter, switchMap, take, takeUntil, tap } from 'rxjs/operators';

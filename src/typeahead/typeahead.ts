@@ -17,8 +17,8 @@ import {
 	Output,
 	SimpleChanges,
 	TemplateRef,
-	DOCUMENT,
 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 
 import { BehaviorSubject, fromEvent, of, OperatorFunction, Subject, Subscription } from 'rxjs';

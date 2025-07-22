@@ -1,4 +1,5 @@
-import { inject, Injectable, DOCUMENT } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 /** Type for the callback used to revert the scrollbar. */
 export type ScrollbarReverter = () => void;

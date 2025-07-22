@@ -9,8 +9,8 @@ import {
 	Type,
 	ViewContainerRef,
 	ViewRef,
-	DOCUMENT,
 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 import { Observable, of, Subject } from 'rxjs';
 import { mergeMap, tap } from 'rxjs/operators';

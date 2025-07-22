@@ -11,8 +11,8 @@ import {
 	OnInit,
 	Output,
 	ViewEncapsulation,
-	DOCUMENT,
 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 import { fromEvent, Observable, Subject } from 'rxjs';
 import { filter, takeUntil } from 'rxjs/operators';

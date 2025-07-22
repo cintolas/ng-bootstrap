@@ -19,8 +19,8 @@ import {
 	SimpleChanges,
 	TemplateRef,
 	ViewEncapsulation,
-	DOCUMENT,
 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 import { listenToTriggers } from '../util/triggers';
 import { ngbAutoClose } from '../util/autoclose';

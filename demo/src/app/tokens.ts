@@ -1,4 +1,5 @@
-import { inject, InjectionToken, DOCUMENT } from '@angular/core';
+import { inject, InjectionToken } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 import { versions } from './versions';
 

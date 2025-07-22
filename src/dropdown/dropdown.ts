@@ -20,8 +20,8 @@ import {
 	Output,
 	QueryList,
 	SimpleChanges,
-	DOCUMENT,
 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 import { fromEvent, Subject } from 'rxjs';
 import { take } from 'rxjs/operators';

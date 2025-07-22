@@ -9,8 +9,9 @@ import {
 	NgZone,
 	TemplateRef,
 	Type,
-	DOCUMENT,
 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+
 import { finalize } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 

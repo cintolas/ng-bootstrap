@@ -10,8 +10,8 @@ import {
 	NgZone,
 	TemplateRef,
 	Type,
-	DOCUMENT,
 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { Subject } from 'rxjs';
 
 import { ngbFocusTrap } from '../util/focus-trap';
